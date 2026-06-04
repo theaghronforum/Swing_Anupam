@@ -1,0 +1,6 @@
+symbol,ticker,category
+GOLD,GC=F,Precious Metal
+SILVER,SI=F,Precious Metal
+CRUDEOIL,CL=F,Energy
+COPPER,HG=F,Industrial Metal
+NATURALGAS,NG=F,Energy

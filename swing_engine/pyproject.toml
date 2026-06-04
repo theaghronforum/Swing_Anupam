@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swing-engine"
+version = "1.0.0"
+description = "30-engine swing trading decision stack (Stocks, F&O, Index, Forex, Commodities)"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+include = ["swing_engine*"]

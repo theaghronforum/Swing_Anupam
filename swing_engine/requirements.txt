@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+# optional, for the training-data assembler / model training:
+pyarrow>=12.0        # Parquet/Feather support in the loader
+scikit-learn>=1.3    # examples/train_demo.py
+joblib>=1.3          # model persistence
+# --- API server (frontend integration) ---
+fastapi>=0.110
+uvicorn[standard]>=0.27
